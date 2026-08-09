@@ -681,7 +681,25 @@ export default function App() {
 
       {activeUtility === 'letter' && (
         <RetroWindow title="summer_letter.txt" closeLabel="Close summer letter" onClose={() => setActiveUtility(null)} className="utility-window letter-window">
-          <div className="letter-paper"><span className="text-cursor" aria-hidden="true" />{/* TODO: Add the personal summer letter. */}</div>
+          <div className="letter-paper">
+            <span className="text-cursor" aria-hidden="true" />
+            <p>Hi, Pepper,</p>
+            <p>I was originally going to make you a scrapbook.</p>
+            <p>Then I remembered that I'm me.</p>
+            <p>So naturally I spent an absurd amount of time making an entire website instead.</p>
+            <p>I've already told you that I had a really fun summer with you, but apparently that wasn't enough.</p>
+            <p>What surprised me most about you was how deeply you think about things. You always seemed to have another perspective, another question, or another idea that I hadn't thought of before. You somehow managed to make ordinary conversations interesting, and I don't think I'll ever look at history, books, or a lot of other things in quite the same way again.</p>
+            <p>Strangely, though, some of my favorite memories aren't the big ones.</p>
+            <p>I still remember black hour, when we were both completely exhausted and somehow that made everything funnier. I remember you wearing my hoodie in the car late at night while we were both barely conscious. I remember drives, FaceTime calls, food adventures, drawings, songs, and all the tiny jokes and references that nobody else would understand.</p>
+            <p>I think one of the things that changed in me this summer was learning to appreciate little things more. Somewhere along the way, grapefruit, strawberry ice cream, White Rock, Taco Bell orders, aquamarine, cars with names, and countless other completely ordinary things became important.</p>
+            <p>None of them would mean much to anyone else.</p>
+            <p>But they mean something to me.</p>
+            <p>I think that's why I made this.</p>
+            <p>I wanted to keep a record of the strange little world we built this summer.</p>
+            <p>More than anything, I hope this makes you smile.</p>
+            <p>I think we found something pretty special this summer, and I wanted to save a little piece of it.</p>
+            <p>— Kush</p>
+          </div>
         </RetroWindow>
       )}
 
