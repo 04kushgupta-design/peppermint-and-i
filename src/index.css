@@ -1,0 +1,8 @@
+:root { font-family: "Courier New", Courier, monospace; color: #4a2942; background: #f7ceda; font-synthesis: none; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #f7ceda; }
+button, a { color: inherit; }
+img { display: block; max-width: 100%; }
+::selection { background: #55b8b4; color: #4a2942; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
