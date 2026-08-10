@@ -165,7 +165,7 @@ const sections: readonly Section[] = [
   },
 ]
 
-type UtilityWindow = 'grapefruit' | 'dessert' | 'letter' | 'stella' | 'taco'
+type UtilityWindow = 'grapefruit' | 'dessert' | 'letter' | 'stella' | 'taco' | 'claude'
 type BackroomsPhase = 'idle' | 'flicker' | 'glitch' | 'creature' | 'active' | 'restore'
 
 const dessertPhotos: PhotoFile[] = importedPhotos.filter(photo => photo.dessert)
@@ -642,7 +642,7 @@ export default function App() {
         </div>
       </div>
 
-      <footer className="taskbar" aria-hidden="true"><span>♥ start</span><span>♫ you + me</span><span>☀ Claude</span><time>11:11 PM</time></footer>
+      <footer className="taskbar"><span aria-hidden="true">♥ start</span><span aria-hidden="true">♫ you + me</span><button type="button" onClick={() => setActiveUtility('claude')} aria-label="Open Claude greeting">☀ Claude</button><time>11:11 PM</time></footer>
 
       {activeSection?.id === 'music' && <MusicWindow onClose={() => setActiveSection(null)} onPhotoOpen={setActivePhoto} />}
       {activeSection?.id === 'adventures' && <AdventureWindow activeFolderId={activeAdventureFolder} onFolderOpen={setActiveAdventureFolder} onBack={() => setActiveAdventureFolder(null)} onClose={closeSection} onPhotoOpen={setActivePhoto} />}
@@ -678,6 +678,17 @@ export default function App() {
       )}
 
       {activeUtility === 'taco' && <TacoBellMenu onClose={() => setActiveUtility(null)} />}
+
+      {activeUtility === 'claude' && (
+        <RetroWindow title="claude.chat" closeLabel="Close Claude greeting" onClose={() => setActiveUtility(null)} className="utility-window claude-window">
+          <div className="claude-chat">
+            <p>Good evening, Pepper.</p>
+            <p>You found Claude.</p>
+            <p>Fun fact:<br />I was not required for this website.</p>
+            <p>Kush added me anyway.</p>
+          </div>
+        </RetroWindow>
+      )}
 
       {activeUtility === 'letter' && (
         <RetroWindow title="summer_letter.txt" closeLabel="Close summer letter" onClose={() => setActiveUtility(null)} className="utility-window letter-window">
