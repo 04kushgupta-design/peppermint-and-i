@@ -36,13 +36,13 @@ type PhotoSection = {
   photos: readonly PhotoFile[]
 }
 
-type StellaSection = {
-  id: 'stella-status'
-  label: 'STELLA STATUS'
+type UtilitySection = {
+  id: 'summer-letter'
+  label: 'SUMMER LETTER'
   symbol: string
 }
 
-type Section = PhotoSection | StellaSection
+type Section = PhotoSection | UtilitySection
 
 type AdventureFolder = {
   id: string
@@ -153,9 +153,9 @@ const sections: readonly Section[] = [
     photos: importedAdventurePhotos,
   },
   {
-    id: 'stella-status',
-    label: 'STELLA STATUS',
-    symbol: '?',
+    id: 'summer-letter',
+    label: 'SUMMER LETTER',
+    symbol: '✉',
   },
   {
     id: 'music',
@@ -476,9 +476,9 @@ export default function App() {
 
   const openSection = (section: Section) => {
     setActiveAdventureFolder(null)
-    if (section.id === 'stella-status') {
+    if (section.id === 'summer-letter') {
       setActiveSection(null)
-      setActiveUtility('stella')
+      setActiveUtility('letter')
       return
     }
     setActiveUtility(null)
@@ -565,7 +565,6 @@ export default function App() {
                   {section.id === 'food' && <i className="idle-detail food-steam" />}
                   {section.id === 'drawings' && <i className="idle-detail drawing-scribble" />}
                   {section.id === 'adventures' && <i className="idle-detail adventure-marker">✦</i>}
-                  {section.id === 'stella-status' && <i className={`idle-detail status-led ${stellaRequested === 'yes' ? 'active' : 'inactive'}`} />}
                   {section.id === 'music' && <i className="idle-detail music-note">♪</i>}
                 </span>
                 <span className="icon-label">{section.label}</span>
@@ -610,8 +609,12 @@ export default function App() {
           <span className="ocean-wave wave-one" /><span className="ocean-wave wave-two" />
           <small>WEST COAST</small>
         </a>
-        <button className="summer-letter" type="button" aria-label="Open summer letter" onClick={() => setActiveUtility('letter')}>
-          <span className="envelope-flap" aria-hidden="true" /><small>summer_letter.txt</small>
+        <button className="world-stella-status" type="button" aria-label="Open Stella Status" onClick={() => setActiveUtility('stella')}>
+          <span className="world-stella-panel" aria-hidden="true">
+            <span>?</span>
+            <i className={`status-led ${stellaRequested === 'yes' ? 'active' : 'inactive'}`} />
+          </span>
+          <small>stella_status.exe</small>
         </button>
         <button className="taco-object" type="button" aria-label="Open Taco Bell menu" onClick={() => setActiveUtility('taco')}>
           <span className="taco-takeout" aria-hidden="true"><i>TB</i></span>
