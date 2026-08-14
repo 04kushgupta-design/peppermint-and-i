@@ -694,22 +694,138 @@ export default function App() {
         <RetroWindow title="summer_letter.txt" closeLabel="Close summer letter" onClose={() => setActiveUtility(null)} className="utility-window letter-window">
           <div className="letter-paper">
             <span className="text-cursor" aria-hidden="true" />
-            <p>Hi, Pepper,</p>
-            <p>I was originally going to make you a scrapbook.</p>
-            <p>Then I remembered that I'm me.</p>
-            <p>So naturally I spent an absurd amount of time making an entire website instead.</p>
-            <p>I've already told you that I had a really fun summer with you, but apparently that wasn't enough.</p>
-            <p>What surprised me most about you was how deeply you think about things. You always seemed to have another perspective, another question, or another idea that I hadn't thought of before. You somehow managed to make ordinary conversations interesting, and I don't think I'll ever look at history, books, or a lot of other things in quite the same way again.</p>
-            <p>Strangely, though, some of my favorite memories aren't the big ones.</p>
-            <p>I still remember black hour, when we were both completely exhausted and somehow that made everything funnier. I remember you wearing my hoodie in the car late at night while we were both barely conscious. I remember drives, FaceTime calls, food adventures, drawings, songs, and all the tiny jokes and references that nobody else would understand.</p>
-            <p>I think one of the things that changed in me this summer was learning to appreciate little things more. Somewhere along the way, grapefruit, strawberry ice cream, White Rock, Taco Bell orders, aquamarine, cars with names, and countless other completely ordinary things became important.</p>
-            <p>None of them would mean much to anyone else.</p>
-            <p>But they mean something to me.</p>
-            <p>I think that's why I made this.</p>
-            <p>I wanted to keep a record of the strange little world we built this summer.</p>
-            <p>More than anything, I hope this makes you smile.</p>
-            <p>I think we found something pretty special this summer, and I wanted to save a little piece of it.</p>
-            <p>— Kush</p>
+            <p>Dear Laya,</p>
+            <p>I dont really know how to start this.</p>
+            <p>I think theres so much I feel about you that whenever I try to explain all of it at once it gets harder to explain any of it. Like I know exactly what I mean until I actually have to turn it into words.</p>
+            <p>But heres my attempt at it.</p>
+            <p>---</p>
+            <p>I think one of my favorite things about getting to know you is that I keep finding out more and more.</p>
+            <p>From innocently trying to go on a date with someone i was so intrugied about to becoming quantum entangled and spending my entire summer with, theres always another layer to our wonderful story.</p>
+            <p>I love when you start talking about something and then somehow we end up six or seven topics away from where we originally started.</p>
+            <p>I love the way your eyes look when you talk about one of your quirky interests and the way I can feel the passion you have for them.</p>
+            <p>I love when youre explaining something at first and I genuinely have no idea how your brain got there at first, or the fact that you see something that way.</p>
+            <p>I just love learning you.</p>
+            <p>And i really hope you know that I dont want some edited version of you.</p>
+            <p>I dont want you thinking about whether something you like is cringe or strange before you show it to me.</p>
+            <p>I dont want you wondering youre talking about yourself too much when im literally sitting there wanting to hear every word.</p>
+            <p>I dont want you worrying about me while youre with me.</p>
+            <p>I just want you to be there.</p>
+            <p>I love the completely unhinged unfiltered you, the random thoughts, the hypotheticals, the niche interests, the things you could talk about forever as time continues to fly by.</p>
+            <p>---</p>
+            <p>Its kind of insane looking back at how much happened in such a short amount of time.</p>
+            <p>May 31st feels like it was literally yesterday but also like it happened years ago at the same time.</p>
+            <p>I remember just being so intrigued by you.</p>
+            <p>I know i wanted to see you again and know more about you but I had no idea what I was getting myself into.</p>
+            <p>I defeintely didnt expect one date to turn into an entire summer of random drives, taco bell runs, movies, bookstores, sleepovers, losing track of time, black hour conversations, quantum entanglement, spanish churches, amazing conversations by lakes, and the rest of the amazing lore we created along the way.</p>
+            <p>Somehow every time we hung out there was always something, even when there wasnt suppose to be.</p>
+            <p>We could literally just be driving somewhere and somehow it would become a memory I would think about and smile to myself about later.</p>
+            <p>We could go somewhere with an actual plan and then completely abandon it because we found something else to do and we both love spontanous adventrues.</p>
+            <p>We could meet up to “study” and then spend nine hours just yapping to each other and accomplish nothing.</p>
+            <p>We could get food and then somehow get more food just hours later.</p>
+            <p>I dont even know how many hours of this summer were spent sitting in Ben just talking about absolultely everything.</p>
+            <p>And honestly those are probably some of my favorite moments.</p>
+            <p>---</p>
+            <p>I love our adventures and all the random things we’ve done but theres something about the really normal moments with you that I love just as much.</p>
+            <p>Sitting next to you.</p>
+            <p>Driving around.</p>
+            <p>Listening to music.</p>
+            <p>Watching random youtube videos of Melaine Martinez getting her hair done.</p>
+            <p>Looking over and seeing you work.</p>
+            <p>Talking until one of us realizes we had been talking for 8+ hours.</p>
+            <p>Going to Barnes and Nobles and having an entire conversation for hours on every book and you reccomeding them to me.</p>
+            <p>Theres just something about your presense that makes normal things feel different to me.</p>
+            <p>And then theres the other form of communcation we developed over this summer, feeling each other.</p>
+            <p>All of this would sound insane to anybody else but in our little world they make perfect sense.</p>
+            <p>I think theres something so beautiful about feeling things from your persepctive, and having your emtoional processing yet sometimes needing to be explained over and over until something finally makes sense to me.</p>
+            <p>Youre fimiliar to me and still constantly surprising me at the same exact time.</p>
+            <p>And I think knowing you has changed the way I see things so much.</p>
+            <p>You notice things I would normally walk straight past.</p>
+            <p>You can take one feeling or random thought and find ten different layers underneath it.</p>
+            <p>Sometimes I geneunely dont understand how you get there until i need you to explain it to me step by step.</p>
+            <p>I hope you dont get annoyed by that.</p>
+            <p>---</p>
+            <p>This summer hasnt been perfect either.</p>
+            <p>We’ve had our confusing moments, our difficult conversations, our disconnects, date 5 happened as well and we still navigate through that.</p>
+            <p>Not every memory has to be sweet or perfect for it to mean something to me.</p>
+            <p>I think ive learned more about you through some of those conversations than I ever could have if everything had just been easy all the time.</p>
+            <p>And somehow through all of it, we just kept finding more things to talk about.</p>
+            <p>More places to go.</p>
+            <p>More little weird theories.</p>
+            <p>More stories.</p>
+            <p>More pieces of each other.</p>
+            <p>---</p>
+            <p>I think an underrated part for me was how naturally you became a huge part of my summer.</p>
+            <p>So fast it turned from “im going on another date with Laya” to it feeling like i was living my life and you were just a part of it now.</p>
+            <p>Something happens? I wanna tell laya.</p>
+            <p>I see something and wonder what you would think about it.</p>
+            <p>I hear something and it reminds me of a conversation we had.</p>
+            <p>I find a random place and immediately think it would be so fun to go there with you.</p>
+            <p>And when I havent seen you for a while, I genuinely just miss having you around.</p>
+            <p>I dont need some huge conversation or some crazy adventure.</p>
+            <p>Sometimes I just miss you sitting next to me.</p>
+            <p>I think thats probably one of the biggest things this summer gave me.</p>
+            <p>Not our fabulous dates.</p>
+            <p>Not the insane memories.</p>
+            <p>It gave me someone whose presense became fimiliar to me.</p>
+            <p>Someone I could spend an entire day with and somehow still have something else to talk about at 2 in the morning.</p>
+            <p>Someone I could go on an actual adventure with or literally do anything with and somehow enjoy both equally.</p>
+            <p>Someone I can be stupid and then five mintures later be talking about the meaning of identity with.</p>
+            <p>Someone who turned an oridinary summer into something I know I wont forget till the day I die.</p>
+            <p>---</p>
+            <p>And beyond all of the memories and all of the stuff we did, I dont think I can even fully explain how much you as a person have come to mean to me.</p>
+            <p>I care about you so fucking much.</p>
+            <p>I care about what makes you happy, what excites you, what youre curious about, what you wanna do with your life, and even all the little random things you probably dont think matter that much.</p>
+            <p>Seeing you happy genuinely makes me happy.</p>
+            <p>Seeing you light up about something you love makes me wanna just sit there and listen forever.</p>
+            <p>I want you to be happy Laya.</p>
+            <p>Like genuinely, deeply happy.</p>
+            <p>I want you to find the things that make you feel the most like yourself and chase them as hard as you can.</p>
+            <p>I want you to do all the weird ambitious things you wanna do and explore every random interest that grabs you and become whatever version of yourself makes you the happiest.</p>
+            <p>And I hope you know ill always be cheering you on.</p>
+            <p>I wanna be the person sitting there getting way too excited for you when something good happens, listening when something doesnt, reminding you how capable you are when you forget, and watching you grow into whoever youre going to become.</p>
+            <p>---</p>
+            <p>I think thats one of the things that made me realize I had actually fallen in love with you.</p>
+            <p>It wasnt just that I wanted to spend time with you or that I missed you when you werent there.</p>
+            <p>Somewhere along the way I started caring so deeply about you and your happiness completely separate from what that meant for me.</p>
+            <p>I started wanting good things for you just because they were good for you.</p>
+            <p>I wanted to see you win.</p>
+            <p>I wanted to see you become more yourself.</p>
+            <p>I wanted to see you experience everything you deserve to experience.</p>
+            <p>And I love you in all these little ways too.</p>
+            <p>I love hearing your voice.</p>
+            <p>I love your laugh.</p>
+            <p>I love looking at you when youre not paying attention to me.</p>
+            <p>I love when you get passionate and start talking faster.</p>
+            <p>I love when youre being weird.</p>
+            <p>I love how curious you are.</p>
+            <p>I love how deeply you feel things.</p>
+            <p>I love the way you can make me think about something I never wouldve thought twice about before.</p>
+            <p>I love how somehow after spending an entire day with you I can still wish I had a little more time.</p>
+            <p>I love you in all of these tiny moments that kept piling up until I realized they werent tiny to me anymore.</p>
+            <p>I dont ever want my love for you to feel like something youre responsible for though.</p>
+            <p>I dont love you because I expect something back from you or because I need you to become something for me.</p>
+            <p>I just feel really fucking lucky that out of every possible person I couldve met that night, it was you, and that I got enough time with you to fall in love with who you are.</p>
+            <p>---</p>
+            <p>I dont know exactly what our story becomes from here.</p>
+            <p>And honestly I dont think i need to know right now.</p>
+            <p>I think thats one of the things I like about us.</p>
+            <p>Theres still so much left that hasnt happened yet.</p>
+            <p>More places we havent gone.</p>
+            <p>More conversations we havent had.</p>
+            <p>More versions of each other we havent gotten to meet yet.</p>
+            <p>And probably another 15 code words we are going to invent that make no sense to anybody else except us.</p>
+            <p>---</p>
+            <p>And im incredinbly grateful may 31st happened.</p>
+            <p>Im grateful I got curious about you.</p>
+            <p>Im grateful that weird force made me stand up and talk to you.</p>
+            <p>Im grateful you kept saying yes to seeing me again.</p>
+            <p>Im grateful for every weird turn this summer took.</p>
+            <p>Im grateful for the really big moments, but also the tiny ones that probably wouldnt mean anything to anyone else.</p>
+            <p>And im grateful I got to spend this summer getting to know the wonderful human being you are.</p>
+            <p>Im grateful to have fallen in love with you.</p>
+            <p>More than anything I hope you look back at this and it makes you smile.</p>
+            <p>I think we found something pretty special this summer, and i wanted to save a little piece of it.</p>
+            <p>- Kush</p>
           </div>
         </RetroWindow>
       )}
