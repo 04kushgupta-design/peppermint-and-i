@@ -181,6 +181,8 @@ const featuredSongs = [
 const tacoBellOrder = [
   ['CBR', 'cheesy bean rice'],
   ['SSTWB', 'supreme soft taco with beans'],
+  ['ST', 'Soft Taco'],
+  ['SSTWRB', 'Supreme Soft Taco With Refried Beans'],
   ['3CCFM', '3 cheese chicken flatbread melt'],
   ['ACSR', 'avocado chicken ranch stacker'],
   ['BBF', 'baja blast freeze'],
